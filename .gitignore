@@ -1,0 +1,8 @@
+.idea/
+.tmp/
+coverage/
+node_modules/
+reports/
+.DS_Store
+yarn.lock
+*.tgz
