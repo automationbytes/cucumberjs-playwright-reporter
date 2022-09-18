@@ -7,19 +7,6 @@ Cucumber PlayWright HTML Reporter is a reporting module for Cucumber to parse th
 - a features overview that can be searched / filtered / sorted
 - a feature(s) overview with metadata of the used browser(s) / devices
 
-# Important
-> **The default time notation in Cucumber is in nanoseconds. When you use a version of Cucumber that uses milliseconds (like CucumberJS 2 and 3) and you want to show the duration you should use [`displayDuration`](./README.MD#displayDuration) AND [`durationInMS = true`](./README.MD#durationinms)**
-
-![Snapshot - Features overview](./docs/images/browsers-features-overview.jpg "Snapshot - Browsers features overview")
-
-or with dark mode enabled
-![image](https://user-images.githubusercontent.com/6072775/170474502-609d7e56-a7d4-42f1-80a5-c1cb0deee807.png)
-![image](https://user-images.githubusercontent.com/6072775/170474592-915efcbb-2587-4c52-984d-e0900cf19b0b.png)
-
-A sample can be found [here](https://wswebcreation.github.io/multiple-cucumber-html-reporter/browsers/index.html)
-
-But you can also create a beautiful overview when you don't want to use CucumberJS with browser(meta)data but with custom metadata, see [customMetadata](./README.MD#custommetadata).
-This nice feature has been created by [LennDG](https://github.com/LennDG)
 
 ## Install
 Install this module locally with the following command:
@@ -48,30 +35,26 @@ report.generate({
 	metadata:{
         browser: {
             name: 'chrome',
-            version: '60'
+            version: '100'
         },
         device: 'Local test machine',
         platform: {
-            name: 'ubuntu',
-            version: '16.04'
+            name: 'windows',
+            version: '10'
         }
     },
     customData: {
         title: 'Run info',
         data: [
             {label: 'Project', value: 'Custom project'},
-            {label: 'Release', value: '1.2.3'},
-            {label: 'Cycle', value: 'B11221.34321'},
-            {label: 'Execution Start Time', value: 'Nov 19th 2017, 02:31 PM EST'},
-            {label: 'Execution End Time', value: 'Nov 19th 2017, 02:56 PM EST'}
+            {label: 'Release', value: '1'},
+            {label: 'Cycle', value: 'B11221'},
+            {label: 'Execution Start Time', value: 'Nov 19th 2021, 02:31 PM EST'},
+            {label: 'Execution End Time', value: 'Nov 19th 2021, 02:56 PM EST'}
         ]
     }
 });
 ```
-
-### cucumber-js 3.x
-Since cucumber-js 3.x the `AfterFeatures` hook is not supported anymore. To use Multiple Cucumber HTML Reporter it must be run in a separate node executable after the cucumber-js process finishes.
-
 
 > **IMPORTANT:**
 
@@ -131,7 +114,7 @@ This will disable the log so will **NOT** see this.
 =====================================================================================
     Multiple Cucumber HTML report generated in:
 
-    /Users/wswebcreation/multiple-cucumber-html-reporter/.tmp/index.html
+    /Users/cucumber-html-reporter/.tmp/index.html
 ========================================================================
 ```
 ### `pageTitle`
@@ -290,7 +273,7 @@ customData: {
     title: 'Run info',
     data: [
         {label: 'Project', value: 'Custom project'},
-        {label: 'Release', value: '1.2.3'},
+        {label: 'Release', value: '1'},
         {label: 'Cycle', value: 'B11221'},
         {label: 'Execution Start Time', value: 'Nov 19th 2021, 02:31 PM EST'},
         {label: 'Execution End Time', value: 'Nov 19th 2021, 02:56 PM EST'}
@@ -447,3 +430,4 @@ How to contribute can be found [here](./docs/CONTRIBUTING.md)
 ## Credits
 In the search for a reporting tools for Cucumber I found a few tools that helped me a lot:
 (https://github.com/wswebcreation/multiple-cucumber-html-reporter/releases)
+(https://github.com/LennDG)
