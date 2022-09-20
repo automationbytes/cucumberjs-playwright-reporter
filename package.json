@@ -1,11 +1,13 @@
 {
   "name": "cucumberjs-playwright-reporter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generate beautiful cucumberjs report",
   "keywords": [
     "cucumber",
     "html",
-    "test report"
+    "test report",
+    "playwright",
+    "reporter"
   ],
   "main": "lib/generate-report.js",
   "license": "MIT",
