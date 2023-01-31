@@ -1,12 +1,12 @@
 Cucumber PlayWright HTML Reporter
 =================================
-Cucumber PlayWright HTML Reporter is a reporting module for Cucumber to parse the JSON output to a beautiful report. The difference between all the other reporting modules on the market is that this module has:
+A reporting module for Cucumber called Cucumber PlayWright HTML Reporter parses JSON output to create stunning reports. The following features set this reporting module apart from all the others on the market:
 
-- a quick overview of all tested features and scenarios
-- a features overview that can hold multiple runs of the same feature / runs of the same feature on different browsers / devices
-- a features overview that can be searched / filtered / sorted
-- a feature(s) overview with metadata of the used browser(s) / devices
+- an overview of all features and scenarios that have been tested.
+- an overview of the features that can accommodate numerous instances of the same feature or instances of the same feature on several browsers and/or devices.
 
+- a searchable, filterable, and sortable features overview
+- a feature overview including information about the browsers and/or devices utilised.
 
 ## Install
 Install this module locally with the following command:
