@@ -1,6 +1,6 @@
 {
   "name": "cucumberjs-playwright-reporter",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Generate beautiful cucumberjs report",
   "keywords": [
     "cucumber",
