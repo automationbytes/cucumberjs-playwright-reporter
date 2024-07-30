@@ -1,6 +1,6 @@
 {
   "name": "cucumberjs-playwright-reporter",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Generate beautiful cucumberjs report",
   "keywords": [
     "cucumber",
@@ -31,19 +31,18 @@
   },
   "homepage": "https://github.com/automationbytes/cucumberjs-playwright-reporter#readme",
   "dependencies": {
-    "chalk": "^3.0.0",
     "find": "^0.3.0",
-    "fs-extra": "^8.1.0",
-    "jsonfile": "^5.0.0",
-    "lodash": "^4.17.19",
-    "moment": "^2.24.0",
-    "open": "^7.0.2",
-    "uuid": "^3.4.0",
+    "fs-extra": "^11.2.0",
+    "jsonfile": "^6.1.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.4.4",
+    "open": "^8.4.2",
+    "uuid": "^10.0.0",
     "jsonfile-updater": "^3.1.0"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5",
-    "jasmine": "^3.5.0",
-    "release-it": "^14.12.4"
+   "jasmine": "^5.1.0",
+    "nyc": "^17.0.0",
+    "release-it": "^17.6.0"
   }
 }
