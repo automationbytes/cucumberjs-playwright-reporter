@@ -38,7 +38,9 @@
     "luxon": "^3.4.4",
     "open": "^8.4.2",
     "uuid": "^10.0.0",
-    "jsonfile-updater": "^3.1.0"
+    "jsonfile-updater": "^3.1.0",
+    "exceljs": "^4.4.0"
+
   },
   "devDependencies": {
    "jasmine": "^5.1.0",
