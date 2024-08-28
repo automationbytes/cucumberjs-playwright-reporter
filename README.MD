@@ -1,6 +1,6 @@
 Cucumber PlayWright HTML Reporter
 =================================
-A reporting module for Cucumber called Cucumber PlayWright HTML Reporter parses JSON output to create stunning reports. The following features set this reporting module apart from all the others on the market:
+A reporting module for Cucumber called Cucumber PlayWright HTML Reporter parses JSON output to create stunning reports with HTML and Excel format. The following features set this reporting module apart from all the others on the market:
 
 - an overview of all features and scenarios that have been tested.
 - an overview of the features that can accommodate numerous instances of the same feature or instances of the same feature on several browsers and/or devices.
@@ -23,7 +23,7 @@ npm i cucumberjs-playwright-reporter --save-dev
 ```
 
 ## Compatibility
-Multiple Cucumber HTML Reporter **now works with CucumberJS 4+**.
+Cucumber HTML Reporter **now works with CucumberJS 4+**.
 
 ## 
 ```javascript
